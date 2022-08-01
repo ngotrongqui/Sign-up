@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans",SofiaPro,Arial,Tahoma,PingFangSC,sans-serif;
+}
+body {
+    height:100%;
+}
+img {
+    margin: -61px -11px;
+}
+
+.container {
+    display: flex;
+    height: 66vh;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+form {
+background-color:rgb(255, 255, 255);
+width: 375px;
+height: 650px;
+}
+
+span {
+    font-size: 15px;
+}
+
+.sign-up {
+    font-size: 32px;
+    text-align: center;
+    margin: 20px;
+}
+
+input {
+    height: 44px;
+    width: 375px;
+    border-radius: 2px;
+    background-color: rgba(22, 24, 35, 0.06);
+    border: 1px solid rgba(22, 24, 35, 0.12);
+}
+
+.input-user {
+    margin: 10px;
+}
+
+input-user-gender{
+
+}
+
+.user .input-user input {
+    width: 100%;
+}
+
+footer {
+    background: rgba(18, 18, 18, 1.0);
+    width: 100%;
+    height: 78px;
+    display: flex;
+    flex-direction: row;
+    align-content: normal;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 144px;
+}
+
+.lang {
+    color: white;
+    border: 0.5px solid white;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.tiktok {
+    color: #8a8b91;
+    font-size: 15px;
+}
+
+p {
+    text-align: center;
+}
